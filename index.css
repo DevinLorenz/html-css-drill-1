@@ -1,0 +1,38 @@
+html, body {
+    margin: 0
+}
+
+#top-sec {
+    background-color: rgb(87, 87, 87);
+    width: 100vw;
+    height: 150px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#left-sec {
+    background-color: rgb(214, 214, 214);
+    height: 850px;
+    width: 100px;
+  z-index: 10;
+}
+
+#right-sec {
+    background-color: rgb(214, 214, 214);
+    height: 850px;
+    width: 100px;
+ z-index: 10;
+}
+
+#bottom-sec {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 80px solid rgb(34, 34, 34);
+    width: 100%;
+    z-index: 1;
+}
